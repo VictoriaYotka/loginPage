@@ -238,10 +238,12 @@ iframe {
   text-align: start;
   color: var(--secondaryFontColor);
   margin-bottom: 20px;
+  font-size: 14px;
 }
 @media screen and (min-width: 768px) {
   .subheader {
     margin-bottom: 40px;
+    font-size: 20px;
   }
 }
 
@@ -277,22 +279,6 @@ iframe {
 .accent {
   margin: 8px;
   color: var(--blueAccentColor);
-}
-
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  width: 100%;
-  gap: 12px;
-  text-align: center;
-}
-@media screen and (min-width: 480px) {
-  .wrapper {
-    flex-direction: row;
-    align-items: flex-start;
-  }
 }
 
 .input_wrapper {
